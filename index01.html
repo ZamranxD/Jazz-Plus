@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Jazz Plus
+    </title>
+    <style>
+      body {
+        margin: 0px;
+        background-image: url(pp.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 2000px;
+      }
+
+      .top_nav {
+        background-color: #191919;
+        height: 180px;
+      }
+
+      .logo {
+        height: 175px;
+        padding-left: 100px;
+        padding-top: 8px;
+        float: left;
+      }
+
+      .topnav2 {
+        float: right;
+        color: white;
+        padding-top: 40px;
+        padding-right: 120px;
+        font-family: "Times New Roman", Times, serif;
+      }
+
+      .header {
+        width: 100%;
+        height: 80px;
+        background-color: #c30000;
+      }
+
+      .button {
+        height: 65%;
+        color: whitesmoke;
+        text-align: center;
+        padding-top: 25px;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        float: left;
+        padding-right: 40px;
+        border-left: 1px solid black;
+        margin-left: -50px;
+        width: 200px;
+      }
+
+      .chaipi {
+        height: 6px;
+      }
+
+      .slider {
+        width: 100%;
+      }
+
+      .rates {
+        background-image: url(bg-rates.jpg);
+        height: 620px;
+        background-size: cover;
+        margin-top: -30px;
+        text-align: center;
+      }
+
+      .ratext1 {
+        color: white;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        font-weight: bolder;
+        font-size: 30px;
+        padding-top: 60px;
+        width: 50%;
+        padding-left: 325px;
+      }
+
+      .c_line1 {
+        border-bottom: 1px solid white;
+        width: 60%;
+        margin-left: 260px;
+      }
+
+      .search_section {
+        margin-top: 40px;
+      }
+
+      .s_bar {
+        width: 1000px;
+        height: 45px;
+        border: 10px solid black;
+        border-radius: 5px;
+        padding: 5px;
+      }
+
+      .ratext2 {
+        color: white;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        font-weight: bolder;
+        font-size: 30px;
+        padding-top: 20px;
+        width: 50%;
+        padding-left: 325px;
+      }
+
+      .logo_sec {
+        background-color: rgba(0, 0, 0, 0.3);
+        width: 1150px;
+        height: 240px;
+        margin-left: 180px;
+        margin-top: 20px;
+      }
+
+      .subparent {
+        float: left;
+        color: white;
+        padding-left: 100px;
+        padding-top: 20px;
+      }
+
+      .uk {
+        float: left;
+      }
+
+      .usa {
+        float: left;
+        padding-left: 180px;
+      }
+
+      .china {
+        float: left;
+        padding-left: 200px;
+      }
+
+      .australia {
+        float: left;
+        padding-left: 250px;
+      }
+
+      .russia {
+        float: left;
+        padding-top: 20px;
+        padding-left: 20px;
+      }
+
+      .germany {
+        float: left;
+        padding-left: 220px;
+        padding-top: 20px;
+      }
+
+      .uae {
+        float: left;
+        padding-top: 20px;
+        padding-left: 215px;
+      }
+
+      .pakistan {
+        float: left;
+        padding-top: 20px;
+        padding-left: 250px;
+      }
+
+      .features {
+        height: 610px;
+        background-color: rgba(0, 0, 0, 0.8);
+      }
+
+      .fetext {
+        color: white;
+        font-size: 45px;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+        text-align: center;
+        font-weight: bolder;
+        padding-top: 60px;
+      }
+
+      .c_line2 {
+        border-bottom: 1px solid whitesmoke;
+        width: 20%;
+        margin-left: 595px;
+      }
+
+      .low_cost {
+        float: left;
+        padding-left: 200px;
+        padding-top: 100px;
+        color: whitesmoke;
+        font-size: 30px;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+        font-weight: bold;
+      }
+
+      .lctext {
+        float: right;
+        padding-left: 20px;
+      }
+
+      .highest {
+        float: right;
+        padding-top: 100px;
+        color: whitesmoke;
+        font-size: 30px;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+        font-weight: bold;
+        padding-right: 120px;
+      }
+
+      .hitext {
+        float: right;
+        padding-left: 20px;
+      }
+
+      .hidden {
+        float: left;
+        padding-left: 200px;
+        padding-top: 100px;
+        color: whitesmoke;
+        font-size: 30px;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+        font-weight: bold;
+        padding-right: 120px;
+      }
+
+      .hidtext {
+        float: right;
+        padding-left: 20px;
+      }
+
+      .offers {
+        float: right;
+        padding-top: 90px;
+        color: whitesmoke;
+        font-size: 30px;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+        font-weight: bold;
+        padding-right: 120px;
+      }
+
+      .offtext {
+        float: right;
+        padding-left: 20px;
+      }
+
+      .footer {
+        background-color: rgb(37, 38, 39);
+        height: 400px;
+      }
+
+      .flogo_sec {
+        padding-top: 109px;
+        padding-left: 265px;
+        color: whitesmoke;
+        float: left;
+      }
+
+      .flogo_img {
+        height: 140px;
+      }
+
+      .flogo_text1 {
+        margin-left: -20px;
+      }
+
+      .flogo_text2 {
+        margin-left: -31px;
+      }
+
+      .fborder_chaipi1 {
+        height: 190px;
+        border-right: 1px solid rgb(99, 97, 97);
+        margin-left: 15px;
+        float: left;
+        margin-top: 120px;
+      }
+
+      .flinks_sec01 {
+        padding-top: 120px;
+        padding-left: 20px;
+        color: whitesmoke;
+        float: left;
+      }
+
+      .flinks_sec02 {
+        padding-top: 120px;
+        padding-left: 100px;
+        color: whitesmoke;
+        float: left;
+      }
+
+      .flinks_text {
+        font-weight: bold;
+        text-decoration: none;
+        color: whitesmoke;
+      }
+
+      .fborder_chaipi2 {
+        height: 160px;
+        border-right: 1px solid rgb(99, 97, 97);
+        margin-left: 190px;
+        float: left;
+        margin-top: -130px;
+      }
+
+      .social {
+        float: left;
+        margin-left: 10px;
+        margin-top: -120px;
+      }
+
+      .fborder_chaipi3 {
+        height: 140px;
+        border-right: 1px solid rgb(99, 97, 97);
+        margin-left: 60px;
+        float: left;
+        margin-top: 122px;
+      }
+
+      .email_sec {
+        padding-top: 140px;
+        padding-left: 20px;
+        color: whitesmoke;
+        float: left;
+      }
+
+      .mailbox {
+        height: 33px;
+        width: 273px;
+        padding: 5px;
+        border-radius: 2px;
+      }
+
+      .mailbutton {
+        width: 285px;
+        height: 25px;
+        background-color: red;
+        border: 0px;
+        border-radius: 2px;
+        color: white;
+        font-weight: bolder;
+      }
+
+      .fborder_chaipi4 {
+        width: 80%;
+        border-bottom: 1px solid rgb(99, 97, 97);
+        float: left;
+        margin-top: 30px;
+        margin-left: 190px;
+      }
+
+      .copyright {
+        float: left;
+        color: white;
+        padding-top: 15px;
+        padding-left: 200px;
+      }
+
+      .privacy {
+        float: right;
+        color: white;
+        padding-top: 15px;
+        padding-right: 130px;
+      }
+      
+    </style>
+
+  </head>
+
+  <body>
+    <!--
+      making a div for the top black bar and inserting logo and
+      customer care info in it
+    -->
+    <div class="top_nav">
+      <img src="jazzlogof.png" class="logo" />
+
+      <div class="topnav2">
+        <div>
+          <b>
+            Customer Care: 1844-wow-jazz
+          </b>
+        </div>
+        <!--
+                introducing chaipees to fix spacing issue lol
+            -->
+        <div class="chaipi"></div>
+        <div>
+          Monday to Friday: 8am to 6pm EST
+        </div>
+        <div class="chaipi"></div>
+        <div>
+          Saturday and Sunday: 8am to 7pm EST
+        </div>
+        <div class="chaipi"></div>
+        <div>
+          <b>
+            E-mail us at: info@jazzplus.com
+          </b>
+        </div>
+      </div>
+    </div>
+
+    <!--
+                    making a header section for inserting some click-able divs and 
+                    floating them to keep them in a row
+                -->
+    <div class="header">
+      <a href="index01.html">
+        <div class="button">
+          HOME
+        </div>
+      </a>
+      <a href="rates.html">
+      <div class="button">
+        RATES
+      </div>
+    </a>
+      <a href="mobile_app.html">
+      <div class="button">
+        MOBILE APP
+      </div>
+    </a>
+    <a href="support.html">
+      <div class="button">
+        SUPPORT
+      </div>
+    </a>
+      <a href="about.html">
+        <div class="button">
+          ABOUT
+        </div>
+      </a>
+    </div>
+
+    <!--
+        header div closes!
+        Start of slider images' div
+    -->
+    <div>
+      <img src="banner-2.png" class="slider" />
+      <!--
+            giving class to div and then adjusting height....this wasnt working
+            so i gave the class to img and it worked...sort of a chaipi i guess xD
+        -->
+    </div>
+
+    <!--
+        now moving to rates section div
+    -->
+    <div class="rates">
+      <div class="ratext1">
+        Our rates are low whether you're calling mobile or landline phones
+      </div>
+
+      <div class="chaipi"></div>
+      <div class="chaipi"></div>
+
+      <!--
+            making a div for the straight line below the 
+             text
+        -->
+      <div class="c_line1">
+        <!--
+                keeping this div empty cuz we just need to insert a line
+                and i can do that by giving it a border in the styling
+                part
+            -->
+      </div>
+
+      <!--
+            inserting a div for the search bar
+        -->
+      <div class="search_section">
+        <input type="text" class="s_bar" placeholder="Search the Destination" />
+      </div>
+
+      <!--
+            making a div for the text below the search bar
+        -->
+      <div class="ratext2">
+        Where do you want to call?
+      </div>
+
+      <!--
+            making a div for inserting logos
+        -->
+      <div class="logo_sec">
+        <!--
+                gonna make sub-divisions for icons
+            -->
+        <div class="subparent">
+          <div class="uk">
+            <img src="Flaguk.png" />
+            <br />
+            United Kingdom
+          </div>
+          <div class="usa">
+            <img src="flagausa.png" />
+            <br />
+            United States
+          </div>
+          <div class="china">
+            <img src="flagchina.png" />
+            <br />
+            China
+          </div>
+          <div class="australia">
+            <img src="flagaustralia.png" />
+            <br />
+            Australia
+          </div>
+          <!--using br for second row-->
+          <br />
+          <div class="russia">
+            <img src="flagsRussia.png" />
+            <br />
+            Russia
+          </div>
+          <div class="germany">
+            <img src="flagGermany.png" />
+            <br />
+            Germany
+          </div>
+          <div class="uae">
+            <img src="Flaguae.png" />
+            <br />
+            UAE
+          </div>
+          <div class="pakistan">
+            <img src="Flagpakistan.png" />
+            <br />
+            Pakistan
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--
+        now there was a picture which was visible in the background
+        don't know what the right way to do that is but i just put it in the body's 
+        background and it's working lol...so far so good
+        
+        now making a section for the features
+    -->
+    <div class="features">
+      <div class="fetext">
+        FEATURES
+      </div>
+      <div class="c_line2"></div>
+
+      <div class="low_cost">
+        <img src="low-cost.png" />
+        <div class="lctext">
+          Lowest Cost
+        </div>
+      </div>
+
+      <div class="highest">
+        <img src="Highest.png" />
+        <div class="hitext">
+          Highest number of minutes
+        </div>
+      </div>
+
+      <!--
+            including class-c for keeping space betweent the two rows
+        -->
+
+      <div class="chaipi"></div>
+      <div class="chaipi"></div>
+      <div class="chaipi"></div>
+      <div class="chaipi"></div>
+
+      <div class="hidden">
+        <img src="hidden.png" />
+        <div class="hidtext">
+          No Hidden Charges
+        </div>
+      </div>
+      <div class="offers">
+        <img src="offers.png" />
+        <div class="offtext">
+          Plus Daily & Weekly <br />
+          Unlimited Dialing Offers
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <!--parent footer class-->
+
+      <div class="flogo_sec">
+        <!--SECTION 01-->
+        <!--footer's logo section-->
+        <img src="jazzlogof.png" class="flogo_img" />
+        <div class="chaipi"></div>
+        <div class="chaipi"></div>
+        <div class="flogo_text1">
+          <b> JAZZ Plus Inc. </b>
+          <div class="chaipi"></div>
+
+          <div class="flogo_text2">
+            1601 Broadway, 12 Floor New York, 10019 NY
+          </div>
+        </div>
+      </div>
+
+      <div class="fborder_chaipi1">
+        <!--one of the three lines seperating the sections-->
+        <!--there's no content
+                its just a div to make a line
+                in the style section
+            -->
+      </div>
+
+      <div class="flinks_sec01">
+        <!--SECTION 02----parent links' class-->
+        <a href="index01.html">
+          <div class="flinks_text">
+            HOME
+          </div>
+        </a>
+        <div class="chaipi"></div>
+        <div class="chaipi"></div>
+        <div class="chaipi"></div>
+        <a href="rates.html">
+        <div class="flinks_text">
+          RATES
+        </div>
+      </a>
+        <div class="chaipi"></div>
+        <div class="chaipi"></div>
+        <div class="chaipi"></div>
+        <div class="flinks_text">
+          MOBILE APP
+        </div>
+        <div class="chaipi"></div>
+        <div class="chaipi"></div>
+        <div class="chaipi"></div>
+        <div class="flinks_text">
+          MY ACCOUNT
+        </div>
+      </div>
+
+      <div class="flinks_sec02">
+        <a href="about.html">
+          <div class="flinks_text">
+            About
+          </div>
+        </a>
+        <div class="chaipi"></div>
+        <div class="chaipi"></div>
+        <div class="chaipi"></div>
+        <div class="flinks_text">
+          Contact Us
+        </div>
+        <div class="chaipi"></div>
+        <div class="chaipi"></div>
+        <div class="chaipi"></div>
+        <div class="flinks_text">
+          Terms of Services
+        </div>
+        <div class="chaipi"></div>
+        <div class="chaipi"></div>
+        <div class="chaipi"></div>
+        <div class="flinks_text">
+          Privacy Policy
+        </div>
+
+        <div class="fborder_chaipi2">
+          <!--one of the three lines seperating the sections-->
+          <!--there's no content
+                        its just a div to make a line
+                        in the style section
+                    -->
+        </div>
+
+        <div class="social">
+          <!--i'm almost finished with the project and just notices the blunder i've
+                made here by not excluding this section from the flinks section...fml-->
+          <img src="FacebookF.png" />
+          <div class="chaipi"></div>
+          <div class="chaipi"></div>
+          <img src="twitterf.png" />
+          <div class="chaipi"></div>
+          <div class="chaipi"></div>
+          <img src="linkedin.png" />
+        </div>
+      </div>
+
+      <div class="fborder_chaipi3">
+        <!--one of the three lines seperating the sections-->
+        <!--there's no content
+                    its just a div to make a line
+                    in the style section
+                -->
+      </div>
+
+      <div class="email_sec">
+        <div>
+          <input type="text" placeholder="EMAIL" class="mailbox" />
+        </div>
+        <div class="chaipi"></div>
+        <div class="chaipi"></div>
+        <div>
+          <button type="button" class="mailbutton">SUBSCRIBE ME</button>
+        </div>
+      </div>
+
+      <div class="fborder_chaipi4">
+        <!--one of the three lines seperating the sections-->
+        <!--there's no content
+                    its just a div to make a line
+                    in the style section
+                -->
+      </div>
+
+      <div class="copyright">
+        Copyright © JAZZ Plus Inc. All rights reserved.
+      </div>
+
+      <div class="privacy">
+        Privacy Statement Terms Of Services
+      </div>
+    </div>
+  </body>
+</html>
